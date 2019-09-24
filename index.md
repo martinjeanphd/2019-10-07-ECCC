@@ -65,7 +65,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endif %}
 
 
-<h2 id="general">General Information</h2>
+<h2 id="general">Information générale</h2>
 
 {% comment %}
 INTRODUCTION
@@ -244,7 +244,7 @@ e.g., '2015-06-10-esu'.
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
   Nous utiliserons le <a href="{{page.collaborative_notes}}">document collaboratif</a> pour les échanges, la prise de notes, le partage d'adresses et de codes.
-</p>
+  </p>
 {% endif %}
 
 <hr/>
@@ -279,6 +279,7 @@ please preview your site before committing, and make sure to run
 <hr/>
 
 {% comment %}
+
 SETUP
 
 Delete irrelevant sections from the setup instructions.  Each
