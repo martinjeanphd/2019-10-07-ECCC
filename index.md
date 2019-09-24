@@ -44,18 +44,10 @@ see the changes take effect locally.
 </div>
 {% endif %}
 
-{% comment %}
-EVENTBRITE
-
-This block includes the Eventbrite registration widget if
-'eventbrite' has been set in the header.  You can delete it if you
-are not using Eventbrite, or leave it in, since it will not be
-displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
 
 
 
-<h2 id="general">Information générale</h2>
+<h2 id="general">Information generale</h2>
 
 {% comment %}
 INTRODUCTION
@@ -147,7 +139,7 @@ special instructions.
   L'organisateur a vérifié que:
 </p>
 <ul>
-  <li>La salle est accessible pour des fauteuils roulants.</li>
+  <li>la salle est accessible pour des fauteuils roulants.</li>
   <li>des toilettes accessibles soient disponibles.</li>
 </ul>
 <p>
