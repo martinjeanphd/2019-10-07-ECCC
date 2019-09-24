@@ -276,4 +276,4 @@ please preview your site before committing, and make sure to run
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>. Une séance d'installation des applications nécessaires est prévue avant la formation.
 </p>
 
-{% endcomment %}
+
