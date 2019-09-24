@@ -97,7 +97,7 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Les participants doivent apporter un ordinateur portable fonctionnant sous
+  <strong>Exigences:</strong> Les participants doivent apporter un ordinateur portable fonctionnant sous
   Mac, Linux, ou Windows (pas de tablettes, Chromebook, etc.). Les droits d'administration ne sont pas nécessaires.
   Des applications devront être installées (voir <a href="#setup">plus bas</a>).
 </p>
@@ -272,7 +272,7 @@ please preview your site before committing, and make sure to run
 </p>
 <p>
   Nous maintenons une liste des problèmes courants qui surviennent durant l'installation des applications (en anglais) en visitant
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>. Une séance d'installation des applications nécessaires est prévue avant la formation.
+  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">la page wiki Configuration Problems and Solutions</a>. Une séance d'installation des applications nécessaires est prévue avant la formation.
 </p>
 
 
