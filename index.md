@@ -107,9 +107,9 @@ address.
 <p id="where">
   <strong>Où:</strong>
   {{page.address}}.
-  Get directions with
+  Obtenir l'itinéraire avec
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-  or
+  ou
   <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
 </p>
 {% endif %}
