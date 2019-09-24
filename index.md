@@ -132,7 +132,7 @@ Modify the block below if there are any special requirements.
 CODE OF CONDUCT
 {% endcomment %}
 <p id="code-of-conduct">
-<strong>Code de conduite:</strong>  Tous les participants aux activités Carpentries doivent se conformer au <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">code de conduite</a>. Ce document énumère entre outre la manière de rapporter un incident si nécessaire.
+<strong>Code de conduite:</strong>  Tous les participants aux activités Carpentries doivent se conformer au <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">code de conduite</a>. Ce document présente en outre la manière de rapporter un incident si nécessaire.
 </p>
 
 
