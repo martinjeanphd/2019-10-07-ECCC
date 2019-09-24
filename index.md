@@ -30,7 +30,7 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% endcomment %}
 
 <p> BONJOUR </p>
-<h2 id="general">Information generale</h2>
+<h2 id="general">Information générale</h2>
 
 {% comment %}
 INTRODUCTION
