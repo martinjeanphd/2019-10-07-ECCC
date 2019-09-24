@@ -30,23 +30,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% endcomment %}
 
 
-
-{% comment %}
-For a workshop please delete the following block
-{% endcomment %}
-
-
-{% if page.carpentry != site.carpentry %}
-<div class="alert alert-warning">
-You specified <code>carpentry: {{page.carpentry}}</code> in <code>index.md</code> and
-<code>carpentry: {{site.carpentry}}</code> in <code>_config.yml</code>. Make sure you edit both files. After editing <code>_config.yml</code>, you need to run <code>make serve</code> again to
-see the changes take effect locally.
-</div>
-{% endif %}
-
-
-
-
 <h2 id="general">Information generale</h2>
 
 {% comment %}
