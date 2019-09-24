@@ -2,8 +2,6 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").
                    # Be sure to update the Carpentry type in _config.yml as well.
-                   #
-
 venue: "Environnement et changement climatique Canada"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "105 rue McGill, 7e étage, Montréal, Qc, salle Lamontagne"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "ca"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
@@ -54,15 +52,7 @@ This block includes the Eventbrite registration widget if
 are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
-{% if page.eventbrite %}
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
-{% endif %}
+
 
 
 <h2 id="general">Information générale</h2>
@@ -204,7 +194,7 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Sondage précédant la formation</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% elsif site.carpentry == "dc" %}
-<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Sondage précédenta la formation</a></p>
+<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Sondage précédent la formation</a></p>
 <p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Sondage suivant la formation</a></p>
 {% elsif site.carpentry == "lc" %}
 <p><a href="{{ site.lc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
